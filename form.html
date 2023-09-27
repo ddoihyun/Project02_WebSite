@@ -21,7 +21,6 @@
   <label for="male"> male</label><br>
   <input type="checkbox" id="male" name="male" value="male">
   <label for="unknown"> Unknown</label><br><br>
-  <input type="submit" value="Submit">
 </form>
 
 <h2> Your Address</h2>
@@ -29,17 +28,35 @@
 <p>The select element defines a drop-down list:</p>
 
 <form action="/action_page.php">
-  <label for="cars"> Address : </label>
-  <select id="cars" name="cars">
+  <label for="city"> Address : </label>
+  <select id="city" name="city">
     <option value="Seoul"> Seoul</option>
     <option value="Busan"> Busan</option>
     <option value="Jeju">Jeju</option>
     <option value="Daejeon">Daejeon</option>
   </select>
-  <input type="submit">
 </form>
 
+<h2>Family Number</h2>
 
+<p>Choose your family number</p>
+
+<p>Choose your family :</p>
+<form action="/action_page.php">
+  <input type="radio" id="2" name="2" value="2">
+  <label for="2">2</label><br>
+  <input type="radio" id="3" name="3" value="3">
+  <label for="3">3</label><br>
+  <input type="radio" id="4" name="4" value="4">
+  <label for="4">4</label><br><br>
+</form>
+
+<h2>BirthDate</h2>
+
+<form action="/action_page.php">
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday">
+</form>
 
 <h2>Et Cetra</h2>
 
